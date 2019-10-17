@@ -1,0 +1,135 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 5ch;
+    width: 100vw;
+    background-color: #36213e;
+    font-size: 2.353em;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: #f1e9db;
+    font-family: 'Merriwether', serif;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 5.535em;
+    margin-top: 5ch;
+    text-align: center;
+    font-weight: 900;   
+    color: #f1e9db;
+}
+
+p {
+    color: #f1e9db;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.769em;
+}
+
+footer {
+    background-color: #36213e;
+    text-align: center;
+    height: 4vh;
+    padding: 2vh;
+}
+
+.created{
+    color: #f1e9db;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.0em;
+    margin: 0;
+    
+}
+
+.name {
+    text-align: center;
+    
+}
+
+.content {
+    text-align: left;
+    color: #f1e9db;
+    width: 70vw;
+    margin-left: 5ch;
+    margin-right: 5ch;
+    margin-top: 15ch;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5ch;
+}
+
+.first-picture {
+    margin-right: 32px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    background-color: #716a5c;
+    height: 100vh;
+}
+
+#bio {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5db7de;
+    height: 100vh;
+}
+
+#aero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #716a5c;
+    height: 100vh;
+}
+
+#wood {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5db7de;
+    height: 100vh;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #716a5c;
+    height: 100vh;
+}
+
+#restoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #5db7de;
+    height: 100vh;
+}
+
+.fas {
+    opacity: .50;
+}
