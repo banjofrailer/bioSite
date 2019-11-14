@@ -106,22 +106,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 5ch;
+    left: 0;
     
 }
-/*
-.first-picture, second-picture {
-    margin: 0;
-}*/
-
-/*.overlay {position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: #b3d9ff;
-          opacity: .8;
-          overflow: hidden;
-          height: 0;
-          transition: .5s ease;}*/
 
 .overlay {position: absolute;
           bottom: 0;
@@ -131,6 +118,7 @@ footer {
           opacity: .8;
           overflow: hidden;
           height: 0;
+          margin: 0;
           transition: height .5s ease;}
 
 
@@ -199,18 +187,30 @@ footer {
     background-image: url(images/retina-wood.png);
 }
 
+.first-picture {
+    position: relative;
+}
+
+.first-picture:after {
+    position: absolute;
+}
+
 .first-picture:hover .overlay {
-    height: 384px;
-    width: 514px;
-    left: 8.0vw;
-    bottom: 4px;
+    height: 100%;
+    width: 100%;
+}
+
+.second-picture {
+    position: relative;
+}
+
+.second-picture:after {
+    position: absolute;
 }
 
 .second-picture:hover .overlay {
-    height: 384px;
-    width: 513px;
-    left: 57.5vw;
-    bottom: 4px;
+    height: 100%;
+    width: 100%;
 }
 
 .fas {
